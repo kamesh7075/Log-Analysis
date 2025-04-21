@@ -1,0 +1,15 @@
+2025-04-18 13:04:06,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-18 13:04:06,347 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 13:04:06,350 - INFO -  * Restarting with stat
+2025-04-18 13:04:06,918 - WARNING -  * Debugger is active!
+2025-04-18 13:04:06,924 - INFO -  * Debugger PIN: 142-885-211
+2025-04-18 13:04:10,053 - INFO - 127.0.0.1 - - [18/Apr/2025 13:04:10] "GET / HTTP/1.1" 200 -
+2025-04-18 13:04:17,468 - INFO - Login attempt: Username: admin, Password: password, IP: 127.0.0.1
+2025-04-18 13:04:17,469 - INFO - Successful login: Username: admin, IP: 127.0.0.1
+2025-04-18 13:04:17,470 - INFO - 127.0.0.1 - - [18/Apr/2025 13:04:17] "POST /login HTTP/1.1" 200 -
+2025-04-18 13:04:17,624 - INFO - 127.0.0.1 - - [18/Apr/2025 13:04:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-18 13:06:02,781 - INFO - Login attempt: Username: admin, Password: passwordds, IP: 127.0.0.1
+2025-04-18 13:06:02,783 - WARNING - Failed login attempt: Username: admin, IP: 127.0.0.1
+2025-04-18 13:06:02,784 - INFO - 127.0.0.1 - - [18/Apr/2025 13:06:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-04-18 13:06:02,903 - INFO - 127.0.0.1 - - [18/Apr/2025 13:06:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
